@@ -12,9 +12,6 @@ output_pdf="out.pdf"
 # Temporary file for concatenated Markdown
 temp_md="temp_pandoc_input.md"
 
-# Additional pandoc args
-pandoc_args="--number-sections -V geometry:margin=1.2in"
-
 # Clear or create the temp file
 > "$temp_md"
 
@@ -45,8 +42,20 @@ for i in "${!file_list[@]}"; do
     fi
 done
 
+# Define LaTeX commands for custom section numbering
+latex_header="
+\\usepackage{titlesec}
+\\titleformat{\\section}{\\normalfont\\Large\\bfseries}{Problem \\thesection:}{0.3em}{}
+\\renewcommand{\\thesection}{\\arabic{section}}
+"
+
 # Run pandoc to generate the PDF
-pandoc "$temp_md" -o "$output_pdf" $pandoc_args
+pandoc --number-sections \
+        -V secnumdepth=1 \
+        -V geometry:margin=1.2in \
+        --include-in-header=<(echo "$latex_header") \
+        "$temp_md" \
+        -o "$output_pdf" 
 
 # Clean up the temporary Markdown file
 rm "$temp_md"

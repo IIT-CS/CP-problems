@@ -10,7 +10,7 @@ consecutively.
 Given two essays (one reference and one student response), determine the number
 of words in the longest well-preserved answer.
 
-## Input {.unnumbered}
+## Input
 
 - The first line contains a single integer $N$ ($1 \leq N \leq 10$), the number
   of test cases.
@@ -22,12 +22,12 @@ of words in the longest well-preserved answer.
 - Both strings contain words separated by spaces. Words consist only of
   uppercase or lowercase English letters.
 
-## Output {.unnumbered}
+## Output
 
 For each test case, print a single integer: the number of words in the longest
 well-preserved answer.
 
-## Example Input {.unnumbered}
+## Example Input
 
     3
     the quick brown fox jumps over the lazy dog
@@ -37,7 +37,7 @@ well-preserved answer.
     we will win the competition
     the competition we win
 
-## Example Output {.unnumbered}
+## Example Output
 
     4
     3

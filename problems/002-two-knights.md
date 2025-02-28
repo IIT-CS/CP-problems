@@ -3,19 +3,19 @@
 Your task is to count for $k=1,2,\ldots,n$ the number of ways two knights can be
 placed on a $k \times k$ chessboard so that they do not attack each other.
 
-## Input {.unnumbered}
+## Input
 
 The only input line contains an integer n ($1 \le n \le 10000$)
 
-## Output {.unnumbered}
+## Output
 
 Print n integers: the results.
 
-## Example Input {.unnumbered}
+## Example Input
 
     8
 
-## Example Output {.unnumbered}
+## Example Output
 
     0
     6

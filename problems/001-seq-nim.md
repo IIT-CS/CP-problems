@@ -8,7 +8,7 @@ non-empty pile (the pile with the minimal index, that has at least one stone).
 The first player who cannot make a move (because all piles are empty) loses the
 game. If both players play optimally, determine the winner of the game.
 
-## Input {.unnumbered}
+## Input
 
 - The first line contains a single integer $t$ ($1 \leq t \leq 1000$) -- the
   number of test cases. Next $2t$ lines contain descriptions of test cases.
@@ -20,12 +20,12 @@ game. If both players play optimally, determine the winner of the game.
 - It is guaranteed that the sum of $n$ for all test cases does not exceed
   $10^5$.
 
-## Output {.unnumbered}
+## Output
 
 For each test case, if the player who makes the first move will win, output
 "First". Otherwise, output "Second".
 
-## Example Input {.unnumbered}
+## Example Input
 
     7
     3
@@ -43,7 +43,7 @@ For each test case, if the player who makes the first move will win, output
     3
     1 1 1
 
-## Example Output {.unnumbered}
+## Example Output
 
     First
     Second
