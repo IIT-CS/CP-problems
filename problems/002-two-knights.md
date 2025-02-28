@@ -1,4 +1,4 @@
-# Two Knights [^1]
+# Two Knights [^two-knights-cses]
 
 Your task is to count for $k=1,2,\ldots,n$ the number of ways two knights can be
 placed on a $k \times k$ chessboard so that they do not attack each other.
@@ -26,4 +26,5 @@ Print n integers: the results.
     1056
     1848
 
-[^1]: Problem from CSES problem set: https://cses.fi/problemset/
+[^two-knights-cses]: Problem from CSES problem set:
+    https://cses.fi/problemset/task/1072

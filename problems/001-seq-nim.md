@@ -1,4 +1,4 @@
-# Sequential Nim [^1]
+# Sequential Nim [^seq-nim-cf]
 
 There are $n$ piles of stones, where the $i$-th pile has $a_i$ stones. Two
 people play a game, where they take alternating turns removing stones.
@@ -53,4 +53,5 @@ For each test case, if the player who makes the first move will win, output
     Second
     First
 
-[^1]: Problem from Codeforces: https://codeforces.com/
+[^seq-nim-cf]: Problem from Codeforces:
+    https://codeforces.com/problemset/problem/1382/B
