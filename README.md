@@ -6,3 +6,11 @@ the ACM student organization.
 
 Some of the problems are taken from other competitive programming resources, and
 are attributed accordingly.
+
+---
+
+CS CP Committee:
+
+- Jacek Dzikowski
+- Farshad Ghanei
+- Michael Lee
