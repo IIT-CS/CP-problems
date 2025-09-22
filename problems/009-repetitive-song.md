@@ -13,8 +13,9 @@ Given the lyrics for a song, print the length of the longest non-identifiable su
 
 ## Input
 
-The first line of input contains a single integer $n$ $(1 ≤ n ≤ 10^5)$ specifying the number of words in
-the song lyrics. Each of the next $n$ lines contains one word of the song lyrics, given in order. Each word 
+The first line of input contains a single integer $n$ $(1 ≤ n ≤ 10^5)$ specifying the number of words in the song lyrics. 
+
+Each of the next $n$ lines contains one word of the song lyrics, given in order. Each word 
 consists of up to twenty uppercase (A–Z) and lowercase (a–z) letters. The same word may appear on multiple lines. 
 If two words do not match exactly (including the use of upper and lower case) then they are considered to be different words.
 
