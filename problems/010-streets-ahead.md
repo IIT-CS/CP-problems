@@ -11,7 +11,7 @@ The first line contains two integers, $n$ $(2 ≤ n ≤ 10^5)$ and $q$ $(1 ≤ q
 where $n$ is the number of cross streets and $q$ is the number of drivers. 
 
 Each of the next $n$ lines contains a string of at most ten lowercase letters 
-representing the name of one of the streets that crosses the country road. All street names are unique. 
+representing the name of one of the streets that crosses the country road. All the street names are unique. 
 Driving along the country road in some direction, one sees these streets in exactly the order provided. 
 
 Each of the next $q$ lines contains two strings of at most ten lowercase letters representing the start
