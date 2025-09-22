@@ -1,4 +1,4 @@
-# Repetitive Song [^repetitive-song]
+# Streets Ahead [^streets-ahead]
 
 International Connecting Passage Causeway is a long, rutted two-way country road crossed by streets at different points.
 There are many drivers, and each will drive along the country road starting at some intersection and ending at some other intersection. 
@@ -31,6 +31,6 @@ Output $q$ lines, the $i_{th}$ line containing the number of intersections that 
     1
     0
 
-[^repetitive-song]: Problem from:
+[^streets-ahead]: Problem from:
     https://icpcarchive.github.io/North_Central_Regional_Contest.html
 
