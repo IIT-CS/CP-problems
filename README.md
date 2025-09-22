@@ -9,7 +9,16 @@ are attributed accordingly.
 
 ---
 
-CS CP Committee:
+CS CP Committee (2025):
+
+- Shouvik Roy
+- Gerald Balekaki
+- Francis Leung
+- Dennis Hood
+  
+---
+
+CS CP Committee (2024):
 
 - Jacek Dzikowski
 - Farshad Ghanei
