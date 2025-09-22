@@ -7,7 +7,7 @@ of the song that your sibling cannot definitively identify within the full song 
 More formally, a length $l$ subsequence of a song with $n$ words is a tuple of $l$ integers $1 ≤ s_1 <
 s_2 < · · · < s_l ≤ n$ identifying the words in the subsequence. The subsequence is non-identifiable
 if there exists a different length $l$ subsequence $1 ≤ t_1 < t_2 < · · · < t_L ≤ n$ (with $s_i = t_i$ for at
-least one index $i$) where word $s_1$ in the song is identical to word $t_1$, word $s_2$ is identical to word $t_2$, etc.
+least one index $i$) where word $s_1$ in the song is identical to word $t_1$, word $s_2$ is identical to word $t_2$ etc.
 
 Given the lyrics for a song, print the length of the longest non-identifiable subsequence.
 
@@ -42,7 +42,7 @@ identical (in other words, case does matter).
 ## Example Output 1
     9
 
-## Example Input
+## Example Input 2
     31
     head
     shoulders
@@ -76,7 +76,7 @@ identical (in other words, case does matter).
     and
     toes
 
-## Example Output
+## Example Output 2
     29
 
 [^repetitive-song]: Problem from:
