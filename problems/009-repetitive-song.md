@@ -4,25 +4,22 @@ Your younger sibling is obsessed with a fairly repetitive song. They claim that 
 so you decided to prove your point by finding the longest (in terms of the number of words) subsequence 
 of the song that your sibling cannot definitively identify within the full song lyrics.
 
-More formally, a length-` subsequence of a song with n words is a tuple of ` integers 1 ≤ s1 <
-s2 < · · · < s` ≤ n identifying the words in the subsequence. The subsequence is non-identifiable
-if there exists a different length-` subsequence 1 ≤ t1 < t2 < · · · < tL ≤ n (with si 6= ti for at
-least one index i) where word s1 in the song is identical to word t1, word s2 is identical to word t2,
-etc.
+More formally, a length-$l$ subsequence of a song with $n$ words is a tuple of $l$ integers $1 ≤ s_1 <
+s_2 < · · · < s_l ≤ n$ identifying the words in the subsequence. The subsequence is non-identifiable
+if there exists a different length-$l$ subsequence $1 ≤ t_1 < t_2 < · · · < t_L ≤ n$ (with $s_i = t_i$ for at
+least one index $i$) where word $s_1$ in the song is identical to word $t_1$, word $s_2$ is identical to word $t_2$, etc.
 Given the lyrics for a song, print the length of the longest non-identifiable subsequence.
 
 ## Input
 
-The first line of input contains a single integer n (1 ≤ n ≤ 105) specifying the number of words in
-the song lyrics.
-Each of the next n lines contains one word of the song lyrics, given in order. Each word consists
-of up to 20 uppercase (A–Z) and lowercase (a–z) letters. The same word may appear on multiple
-lines. If two words do not match exactly (including the use of upper and lower case) then they are
-considered to be different words.
+The first line of input contains a single integer $n (1 ≤ n ≤ 10^5)$ specifying the number of words in
+the song lyrics. Each of the next $n$ lines contains one word of the song lyrics, given in order. Each word 
+consists of up to 20 uppercase (A–Z) and lowercase (a–z) letters. The same word may appear on multiple lines. 
+If two words do not match exactly (including the use of upper and lower case) then they are considered to be different words.
 
 ## Output
 
-Output a single integer `, the number of words in the longest non-identifiable song subsequence.
+Output a single integer $l$, the number of words in the longest non-identifiable song subsequence.
 If all of the song’s subsequences are identifiable, print 0. When determining if a subsequence is
 identifiable, treat two words in the lyrics as identical if each of their corresponding characters are
 identical (in other words, case does matter).
