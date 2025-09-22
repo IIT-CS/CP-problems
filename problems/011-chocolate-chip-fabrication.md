@@ -12,6 +12,7 @@ becomes chocolate chipified. Note that any cookie dough in a square on the bound
 pan always gets chipified.
 
 The following example shows how to make a cookie of the shape shown on the left (s):
+
 <img width="410" height="119" alt="Screenshot 2025-09-22 at 10 32 25" src="https://github.com/user-attachments/assets/1335817b-c997-43fb-aa8a-90b469fdba6b" />
 
 First you place cookie dough in 8 squares (a1). All squares become chipified after the first solution
@@ -24,12 +25,13 @@ solution exposures required to make the cookie.
 
 ## Input
 
-The first line of input contains two integers n and m (1 ≤ n, m ≤ 1,000), indicating the pan has n
-rows and m columns of unit squares.
-Each of the next n lines contains a string of exactly m characters, where each character is either
+The first line of input contains two integers $n$ and $m$ $(1 ≤ n, m ≤ 1000)$, 
+indicating the pan has $n$ rows and $m$ columns of unit squares.
+
+Each of the next $n$ lines contains a string of exactly $m$ characters, where each character is either
 “X”, representing a square occupied by your cookie, or “-”, representing an empty square.
-The shape of your cookie occupies at least one square. Note that the shape may consist of multiple
-pieces that are disconnected.
+
+The shape of your cookie occupies at least one square. Note that the shape may consist of multiple pieces that are disconnected.
 
 ## Output
 
@@ -38,7 +40,8 @@ Output the minimum number of chocolate chip solution exposures required to make 
 ## Example Input 1
 
     5 5
-    -X-XXXXXX
+    -X-X
+    XXXXX
     XXXXX
     -XXX-
     --X--
@@ -57,7 +60,7 @@ Output the minimum number of chocolate chip solution exposures required to make 
 ## Example Output 2
     1
 
-## Example Input 2
+## Example Input 3
     
     5 5
     XXXXX
@@ -66,7 +69,7 @@ Output the minimum number of chocolate chip solution exposures required to make 
     XXXXX
     XXXXX
 
-## Example Output 2
+## Example Output 3
 
     3
 
