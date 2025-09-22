@@ -4,9 +4,9 @@ Your younger sibling is obsessed with a fairly repetitive song. They claim that 
 so you decided to prove your point by finding the longest (in terms of the number of words) subsequence 
 of the song that your sibling cannot definitively identify within the full song lyrics.
 
-More formally, a length $l$ subsequence of a song with $n$ words is a tuple of $l$ integers $1 ≤ s_1 <
+More formally, a length-\$l$ subsequence of a song with $n$ words is a tuple of $l$ integers $1 ≤ s_1 <
 s_2 < · · · < s_l ≤ n$ identifying the words in the subsequence. The subsequence is non-identifiable
-if there exists a different length $L$ subsequence $1 ≤ t_1 < t_2 < · · · < t_L ≤ n$ (with $s_i \neq t_i$ for at
+if there exists a different length-\$l$ subsequence $1 ≤ t_1 < t_2 < · · · < t_l ≤ n$ (with $s_i \neq t_i$ for at
 least one index $i$) where word $s_1$ in the song is identical to word $t_1$, word $s_2$ is identical to word $t_2$ etc.
 
 Given the lyrics for a song, print the length of the longest non-identifiable subsequence.
