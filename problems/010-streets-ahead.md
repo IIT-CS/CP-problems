@@ -21,7 +21,7 @@ and end intersection for each driver. Queries will be between distinct streets.
 
 Output $q$ lines, the $i^{th}$ line containing the number of intersections that the $i^{th}$ driver drives through.
 
-## Example Input
+## Example Input 1
 
     3 3
     first
@@ -31,11 +31,38 @@ Output $q$ lines, the $i^{th}$ line containing the number of intersections that 
     third first
     second third
 
-## Example Output
+## Example Output 1
+
     0
     1
     0
+    
+## Example Input 2
 
+    5 7
+    first
+    second
+    third
+    fourth
+    fifth
+    fifth second
+    second fourth
+    first fifth
+    fourth third
+    third first
+    first fourth
+    second first
+
+## Example Output 2
+
+    2
+    1
+    3
+    0
+    1
+    2
+    0
+    
 [^streets-ahead]: Problem from:
     https://icpcarchive.github.io/North_Central_Regional_Contest.html
 
