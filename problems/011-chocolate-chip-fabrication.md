@@ -40,7 +40,7 @@ Output the minimum number of chocolate chip solution exposures required to make 
 ## Example Input 1
 
     5 5
-    -X-X
+    -X-X-
     XXXXX
     XXXXX
     -XXX-
