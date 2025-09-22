@@ -15,7 +15,6 @@ The following example shows how to make a cookie of the shape shown on the left 
 
 <img width="410" height="119" alt="Screenshot 2025-09-22 at 10 32 25" src="https://github.com/user-attachments/assets/1335817b-c997-43fb-aa8a-90b469fdba6b" />
 
-
 First you place cookie dough in 8 squares (a1). All squares become chipified after the first solution
 exposure (a2). You place cookie dough in 8 more squares (b1). The second exposure makes every
 square chipified and completes the cookie (b2).
